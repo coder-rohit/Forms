@@ -1,0 +1,51 @@
+body{
+    /* background-color: rgb(180, 180, 180); */
+    background-image: url(img/rog.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#err{
+    margin-left: 62px;
+}
+
+.rfieldset{
+    width: 400px;
+    /* text-align: center; */
+    margin: 90px auto;
+    padding: 50px;
+    background-color: rgb(209, 209, 209, 0.5);
+    border: none;
+}
+
+.label{
+    width: 120px;
+    display: inline-block;
+    color: aliceblue;
+}
+
+form{
+    margin-left: 55px;
+    color: white;
+}
+
+legend{
+    text-align: center;
+    color: aliceblue;
+}
+
+button{
+    margin-left: 110px;
+    margin-top: 10px;
+    opacity: 0.5;
+    color: black;
+    padding: 6px 10px;
+    font-weight: 600;
+    border: none;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
